@@ -7,7 +7,7 @@ const sendWelcomeEmail = (email, name) => {
     to: email,
     from: 'anthonycolle84@gmail.com',
     subject: 'Thanks for joining in',
-    text: `Welcome to the app, $(name)`
+    text: `Welcome to the app, ${name}`
   })
 }
 
@@ -16,7 +16,7 @@ const sendCancelationEmail = (email, name) => {
     to: email,
     from: 'anthonycolle84@gmail.com',
     subject: 'Thanks for having used our app',
-    text: `We're sad to see you leave $(name). Is there anything we could do?`
+    text: `We're sad to see you leave ${name}. Is there anything we could do?`
   })
 }
 

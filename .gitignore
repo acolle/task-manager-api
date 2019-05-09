@@ -1,3 +1,5 @@
 node_modules
 config
 mongodb.js
+src/math.js
+tests/math.test.js
